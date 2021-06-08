@@ -1,15 +1,15 @@
 {
-   "Name": "Support Request Contributor (Custom)",
-   "IsCustom": true,
-   "Description": "Allows to create support requests",
-   "Actions": [
-       "Microsoft.Resources/subscriptions/resourceGroups/read",
-       "Microsoft.Support/*"
-   ],
-   "NotActions": [
-   ],
-   "AssignableScopes": [
-       "/providers/Microsoft.Management/managementGroups/az104-02-mg1",
-       "/subscriptions/9f4cf248-63b5-44be-9f5e-af2a2cfb4b7c"
-   ]
+  "Name": "Reader Support Tickets",
+  "IsCustom": true,
+  "Description": "View everything in the subscription and also open support tickets.",
+  "Actions": [
+    "*/read",
+    "Microsoft.Support/*"
+  ],
+  "NotActions": [],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/9f4cf248-63b5-44be-9f5e-af2a2cfb4b7c"
+  ]
 }
